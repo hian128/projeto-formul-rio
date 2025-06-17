@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto html</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo"> Fale conosco </h1>
+     <form>
+    <div class="nome">
+      <p >primeiro nome *</p>
+    <label for="nome"></label>
+    <input type="text" id= "nome" name="nome" placeholder="digite seu nome aqui">
+    </div>
+    
+    <div class="sobrenome">
+      <p>sobrenome *</p>
+    <label for="sobrenome"></label>
+    <input type="text" id="sobrenome" name="sobrenome" placeholder="digite seu sobrenome aqui">
+    
+    </div>
+    
+    <div class="email">
+      <P>endereço de e-mail *</P>
+    <label for="e mail"></label>
+    <input type="email" id = email name="email" placeholder="digite seu endereço de e-mail" >
+    </div>
+    
+    <div class="genero">
+       <p>genero *</p> 
+    <input type="radio" id="masculino" name="genero" value="masculino" >
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="feminino" name="genero" value="feminino">
+    <label for="feminino">Feminino</label>
+    </div>
+      <div class="mensagem">
+        <p class="mensagem">mensagem *</p>
+        <textarea name="mensagem" rows="5" cols="60" placeholder="digite sua mensagem aqui"></textarea>
+      </div>
+    
+
+
+    <div class="caixa">
+    <label>
+      <input type="checkbox" required>
+      Eu concordo com os <a href="termos.html" target="_blank">termos e condições</a>
+    </label>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
